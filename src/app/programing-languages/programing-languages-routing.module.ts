@@ -2,8 +2,9 @@ import { ProgramingLanguagesComponent } from './programing-languages.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+
 const routes: Routes = [
-  {path: '', component:ProgramingLanguagesComponent}
+  {path: 'programming', component:ProgramingLanguagesComponent}
 ];
 
 @NgModule({

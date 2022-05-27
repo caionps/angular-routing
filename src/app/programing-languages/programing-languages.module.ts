@@ -10,8 +10,7 @@ import { ProgramingLanguagesRoutingModule } from './programing-languages-routing
     ProgramingLanguagesComponent
   ],
   imports: [
-    CommonModule,
-    ProgramingLanguagesRoutingModule
+    CommonModule
   ]
 })
 export class ProgramingLanguagesModule { }

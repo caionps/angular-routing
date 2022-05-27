@@ -2,7 +2,6 @@ import { SpokenLanguagesComponent } from './spoken-languages.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { SpokenLanguagesRoutingModule } from './spoken-languages-routing.module';
 
 
 @NgModule({
@@ -10,8 +9,7 @@ import { SpokenLanguagesRoutingModule } from './spoken-languages-routing.module'
     SpokenLanguagesComponent
   ],
   imports: [
-    CommonModule,
-    SpokenLanguagesRoutingModule
+    CommonModule
   ]
 })
 export class SpokenLanguagesModule { }
